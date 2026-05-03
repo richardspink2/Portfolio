@@ -1,275 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Load Goldman font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Projects, coursework, and experience highlights from Richard Spink's software development portfolio." />
-  <title>Projects &amp; Experience | Richard Spink</title>
+  <title>Experience | Richard Spink</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/table-styles.css">
+  <link rel="stylesheet" href="css/tableStyles.CSS">
+
+  <style>
+    body {
+      font-family: 'Goldman', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+
+    
+
+  
+
+    .project-links a {
+      display: inline-block;
+      margin: 8px 0;
+      color: #0084c6;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .project-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a class="brand" href="index.html">Richard <span>Spink</span></a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a class="active" href="experience.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Richard Spink</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
-  <main id="main" class="page-main">
-    <section class="section page-hero">
-      <p class="eyebrow">Projects &amp; experience</p>
-      <h1>Work that shows progress, range, and a growing development toolkit.</h1>
-      <p class="lead">
-        I am still early in my software career, so I focus on presenting work honestly:
-        strong class projects, self-directed experiments, and portfolio pieces that show
-        both technical growth and more intentional design decisions.
-      </p>
-    </section>
+  <main class="main-container">
+    <h1>My Experience</h1>
+    <p>
+      I've worked in many different industries throughout my life. I've been a
+      <strong>personal trainer</strong> working for some of the
+      <span style="color:#0084c6; font-weight:bold;">most prominent gyms in the state</span>.
+      I've also been a <strong>welders helper</strong> working for <em>So-Cal Gas Company</em>.
+      Not long after that, I went to college for welding and became a
+      <strong>pipe welder</strong> for <em>ESYS Energy Control Company</em>.
+      I was also a <strong>Twitch streamer</strong> for many games such as
+      <em>Runescape</em>, <em>Kingdom Come Deliverance</em>, and
+      <em>Escape from Tarkov</em>. My most recent work was as a
+      <strong>pipe-fitter</strong> for the <em>LOCAL 460 P.I.P.E Trades</em>.
+    </p>
 
-    <section class="section" id="featured-projects">
-      <div class="section-heading">
-        <p class="eyebrow">Featured projects</p>
-        <h2>Projects worth opening during an interview.</h2>
-      </div>
+    <p>Here is a list of classes I will have attended by the end of my program:</p>
 
-      <div class="card-grid">
-        <article class="project-card">
-          <div class="project-media">
-            <img src="images/apex-design-preview.png" alt="Preview image from the Apex Design of Nampa project" />
-          </div>
-          <p class="project-kicker">Web design concept</p>
-          <h3>Apex Design of Nampa</h3>
-          <p>
-            A more polished visual web project built around branding, landing page storytelling,
-            and stronger hierarchy than a basic classroom layout.
-          </p>
-          <ul class="meta-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Brand-focused layout</li>
-          </ul>
-          <div class="project-links">
-            <a class="text-link" href="https://github.com/richardspink2/Apex-Design-Nampa" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-          </div>
-        </article>
+    <table>
+      <caption>College of Western Idaho (CWI) - Software Development Associate Degree</caption>
+      <thead>
+        <tr>
+          <th>Course Code</th>
+          <th>Course Name</th>
+          <th>Technology</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="year" colspan="3">First Year: Client-Side Development</td></tr>
+        <tr><td>SWDV-105</td><td>Introduction to Programming</td><td>C#</td></tr>
+        <tr><td>SWDV-110</td><td>Intermediate Programming</td><td>C#</td></tr>
+        <tr><td>SWDV-115</td><td>Introduction to Web Development</td><td>HTML5, CSS3, GitHub</td></tr>
+        <tr><td>SWDV-141</td><td>Intermediate Web Application Development</td><td>JavaScript</td></tr>
+        <tr><td>SWDV-210</td><td>Introduction to Server-Side Programming</td><td>Python</td></tr>
+        <tr><td class="year" colspan="3">Second Year: Server-Side Development</td></tr>
+        <tr><td>SWDV-152</td><td>Systems Analysis and Design</td><td>Agile</td></tr>
+        <tr><td>SWDV-220</td><td>Fundamentals of Database Systems</td><td>SQL</td></tr>
+        <tr><td>SWDV-235</td><td>Advanced Web Development</td><td>Django</td></tr>
+        <tr><td>SWDV-275</td><td>Software Development Tools and Technology</td><td>Various</td></tr>
+        <tr><td>SWDV-278</td><td>Cloud Platforms and Services</td><td>AWS, Azure, Google Cloud</td></tr>
+        <tr><td>SWDV-280</td><td>Collaborative Development</td><td>Various</td></tr>
+        <tr><td>SWDV-290</td><td>Software Development Capstone Internship</td><td>Project-Based</td></tr>
+      </tbody>
+    </table>
 
-        <article class="project-card">
-          <div class="project-media">
-            <img src="images/guide.png" alt="Guide to Gielinor project screenshot" />
-          </div>
-          <p class="project-kicker">Content-rich web project</p>
-          <h3>Guide to Gielinor</h3>
-          <p>
-            A themed guide website organized across multiple pages with custom artwork,
-            resource links, and embedded YouTube content inside the browsing experience.
-          </p>
-          <ul class="meta-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Multi-page structure</li>
-            <li>Embedded media</li>
-          </ul>
-          <div class="project-links">
-            <a class="text-link" href="https://github.com/richardspink2/richardspink2.github.io/tree/main/Guide/osrsGuide" target="_blank" rel="noopener noreferrer">Source in GitHub Pages repo</a>
-          </div>
-        </article>
+    <h2><span style="color:#ffffff; font-weight:bold;">Projects</span></h2>
+<div class="projects-grid">
+  <div class="project-card">
+    <h3><span style="color:#0084c6; font-weight:bold;">Python Projects</span></h3>
+    <p>
+      A collection of Python coursework and programming projects focused on
+      problem solving, data handling, and application development.
+    </p>
+    <a href="https://github.com/richardspink2/PythonProjects/tree/main/Python" target="_blank">
+      View Python Repository
+    </a>
+  </div>
 
-        <article class="project-card">
-          <div class="project-media project-media--gradient">
-            <span>Python</span>
-          </div>
-          <p class="project-kicker">Programming practice</p>
-          <h3>Python Projects</h3>
-          <p>
-            Coursework and programming exercises focused on logic, core syntax, control flow,
-            data handling, and small application development.
-          </p>
-          <ul class="meta-list">
-            <li>Python</li>
-            <li>Problem solving</li>
-            <li>Fundamentals</li>
-          </ul>
-          <div class="project-links">
-            <a class="text-link" href="https://github.com/richardspink2/PythonProjects/tree/main/Python" target="_blank" rel="noopener noreferrer">View repository</a>
-          </div>
-        </article>
+  <div class="project-card">
+    <h3><span style="color:#0084c6; font-weight:bold;">SQL Projects</span></h3>
+    <p>
+      Database and SQL projects demonstrating table design, queries, data
+      management, and relational database concepts.
+    </p>
+    <a href="https://github.com/richardspink2/SQL_Projects/tree/main/SQL" target="_blank">
+      View SQL Repository
+    </a>
+  </div>
 
-        <article class="project-card">
-          <div class="project-media project-media--gradient">
-            <span>SQL &amp; data work</span>
-          </div>
-          <p class="project-kicker">Database foundation</p>
-          <h3>SQL Projects</h3>
-          <p>
-            Query-focused coursework covering schema design, joins, updates, and relational data
-            concepts, supported by local SQLite and SQLModel experiments.
-          </p>
-          <ul class="meta-list">
-            <li>SQL</li>
-            <li>SQLite</li>
-            <li>Relational design</li>
-          </ul>
-          <div class="project-links">
-            <a class="text-link" href="https://github.com/richardspink2/SQL_Projects/tree/main/SQL" target="_blank" rel="noopener noreferrer">View repository</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-media project-media--gradient">
-            <span>C# and Unity</span>
-          </div>
-          <p class="project-kicker">Object-oriented practice</p>
-          <h3>C# Foundations</h3>
-          <p>
-            A collection of C# exercises and small applications, alongside ongoing Unity
-            experimentation to improve object-oriented thinking and game-logic structure.
-          </p>
-          <ul class="meta-list">
-            <li>C#</li>
-            <li>Desktop exercises</li>
-            <li>Unity experimentation</li>
-          </ul>
-          <div class="project-links">
-            <a class="text-link" href="https://github.com/richardspink2/C-Sharp" target="_blank" rel="noopener noreferrer">View repository</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="video-demos">
-      <div class="section-heading">
-        <p class="eyebrow">Video embedding</p>
-        <h2>Responsive media examples for GitHub Pages.</h2>
-        <p class="lead">
-          The portfolio now includes a responsive embed treatment that works in a static site.
-          These examples come from the Guide to Gielinor project and show how external video can
-          sit cleanly inside a project case study.
-        </p>
-      </div>
-
-      <div class="video-grid">
-        <article class="video-card">
-          <div class="embed-shell">
-            <iframe
-              src="https://www.youtube.com/embed/mhHpFoVxlyY"
-              title="Top 5 Money-Making Bosses"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen></iframe>
-          </div>
-          <p class="inline-note">
-            Embedded reference video displayed inside the guide site to support themed content.
-          </p>
-        </article>
-
-        <article class="video-card">
-          <div class="embed-shell">
-            <iframe
-              src="https://www.youtube.com/embed/iLjI-itqZCQ"
-              title="Secret Skilling Tricks Every Veteran Uses"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen></iframe>
-          </div>
-          <p class="inline-note">
-            A second example to verify that the layout stays balanced and mobile-friendly with multiple embeds.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Education snapshot</p>
-        <h2>College of Western Idaho coursework</h2>
-      </div>
-
-      <div class="table-shell">
-        <table>
-          <caption>Software Development Associate Degree</caption>
-          <thead>
-            <tr>
-              <th>Course Code</th>
-              <th>Course Name</th>
-              <th>Technology</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td class="year" colspan="3">First Year: Client-Side Development</td></tr>
-            <tr><td>SWDV-105</td><td>Introduction to Programming</td><td>C#</td></tr>
-            <tr><td>SWDV-110</td><td>Intermediate Programming</td><td>C#</td></tr>
-            <tr><td>SWDV-115</td><td>Introduction to Web Development</td><td>HTML5, CSS3, GitHub</td></tr>
-            <tr><td>SWDV-141</td><td>Intermediate Web Application Development</td><td>JavaScript</td></tr>
-            <tr><td>SWDV-210</td><td>Introduction to Server-Side Programming</td><td>Python</td></tr>
-            <tr><td class="year" colspan="3">Second Year: Server-Side Development</td></tr>
-            <tr><td>SWDV-152</td><td>Systems Analysis and Design</td><td>Agile</td></tr>
-            <tr><td>SWDV-220</td><td>Fundamentals of Database Systems</td><td>SQL</td></tr>
-            <tr><td>SWDV-235</td><td>Advanced Web Development</td><td>Django</td></tr>
-            <tr><td>SWDV-275</td><td>Software Development Tools and Technology</td><td>Various</td></tr>
-            <tr><td>SWDV-278</td><td>Cloud Platforms and Services</td><td>AWS, Azure, Google Cloud</td></tr>
-            <tr><td>SWDV-280</td><td>Collaborative Development</td><td>Various</td></tr>
-            <tr><td>SWDV-290</td><td>Software Development Capstone Internship</td><td>Project-Based</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Transferable experience</p>
-        <h2>Previous roles that still shape how I work.</h2>
-      </div>
-
-      <div class="card-grid">
-        <article class="info-card">
-          <h3>Personal training</h3>
-          <p>
-            Helped me become more comfortable coaching, listening, and adapting communication to
-            different people and goals.
-          </p>
-        </article>
-        <article class="info-card">
-          <h3>Welding and pipe work</h3>
-          <p>
-            Reinforced attention to detail, steady execution, and respect for doing technical work carefully.
-          </p>
-        </article>
-        <article class="info-card">
-          <h3>Streaming and online communities</h3>
-          <p>
-            Built confidence presenting ideas in public and keeping an audience engaged around topics I care about.
-          </p>
-        </article>
-      </div>
-    </section>
+  <div class="project-card">
+    <h3><span style="color:#0084c6; font-weight:bold;">C# Projects</span></h3>
+    <p>
+      Showcase of C# programs Displaying level of competency.
+    </p>
+    <a href="https://github.com/richardspink2/C-Sharp" target="_blank">
+      View C# Repository
+    </a>
+  </div>
+</div>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <p class="muted">Public repositories, stronger project summaries, and cleaner static-site media support.</p>
-      <div class="social-row">
-        <a href="mailto:richardspink@my.cwi.edu">richardspink@my.cwi.edu</a>
-        <a href="https://github.com/richardspink2" target="_blank" rel="noopener noreferrer">
-          <img src="images/github.png" alt="" />
-          GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/richard-spink-254847308/" target="_blank" rel="noopener noreferrer">
-          <img src="images/linkedin.png" alt="" />
-          LinkedIn
-        </a>
-      </div>
-      <p class="muted">&copy; 2026 Richard Spink</p>
-    </div>
+  <footer>
+    <p>
+      <a href="https://www.linkedin.com/in/richard-spink-254847308/" target="_blank">
+        <img src="Image/LinkedIn.png" alt="LinkedIn" width="30">
+      </a> |
+      <a href="https://github.com/richardspink2" target="_blank">
+        <img src="Image/GitHub.png" alt="GitHub" width="30">
+      </a>
+    </p>
+    <p>&copy; 2025 Richard Spink</p>
   </footer>
 </body>
 </html>
