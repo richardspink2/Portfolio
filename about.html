@@ -1,61 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Load Goldman font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
-
-
-
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn more about Richard Spink, his background, and what he brings to a software development team." />
   <title>About Me | Richard Spink</title>
   <link rel="stylesheet" href="css/styles.css" />
-
-  <style>
-    body {
-      font-family: 'Goldman', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    }
-  </style>
-
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="container">
-        <div class="logo">Richard Spink</div>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="about.html">About</a></li>
-          
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Richard <span>Spink</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="experience.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main class="main-container">
-    <h1><strong>My Name is Richard Spink</strong></h1>
-    <p>I was born in <em>Portland, OR</em>, and moved all over the country. I learned that <strong>coding</strong> was something I wanted to do <strong>15 years ago</strong> while playing on a modded <em>Battlefield 2</em> called <strong>Project Reality</strong>. It is now known as <strong>Squad</strong>.</p>
-    
-    <p>I am now enrolled in the <strong>College of Western Idaho's software development program</strong> where I will be rigorously studying the different <strong>code languages</strong> offered to me to broaden my fields of expertise.</p>
+  <main id="main" class="page-main">
+    <section class="section page-hero">
+      <p class="eyebrow">About</p>
+      <h1>From hands-on industries into software development.</h1>
+      <p class="lead">
+        My background is not a traditional one, and that has become a strength. I bring
+        discipline, communication, and a practical problem-solving mindset from years of work
+        outside tech while I build a stronger software foundation.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="split-layout">
+        <div>
+          <h2>My story</h2>
+          <p>
+            I was born in Portland, Oregon and moved around the country growing up. I first
+            realized I wanted to learn programming around 15 years ago while spending time in
+            the modded <em>Battlefield 2</em> community behind <strong>Project Reality</strong>,
+            which later became <strong>Squad</strong>. That experience made software feel less
+            abstract and more like something real people could build together.
+          </p>
+          <p>
+            Today I am enrolled in the <strong>College of Western Idaho software development
+            program</strong>. I am using that program to strengthen my skills across the web
+            stack, Python, SQL, and C# while building projects that look more professional and
+            communicate more clearly.
+          </p>
+        </div>
+
+        <div class="stack">
+          <article class="info-card">
+            <h3>Currently studying</h3>
+            <p>
+              Client-side and server-side development, database systems, collaborative software
+              development, and cloud platform fundamentals.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Currently seeking</h3>
+            <p>
+              Internship, junior developer, or entry-level software opportunities where I can
+              contribute, learn from a team, and keep improving through real project work.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Strengths</p>
+        <h2>What I bring to a team.</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="info-card">
+          <h3>Adaptability</h3>
+          <p>
+            Moving between industries taught me how to learn new systems quickly and stay useful
+            even when I am still getting up to speed.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Work ethic</h3>
+          <p>
+            My background in trades and physically demanding work built consistency, patience,
+            and the habit of finishing what I start.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Communication</h3>
+          <p>
+            Customer-facing roles, personal training, and streaming all improved how I explain
+            ideas clearly and keep people engaged.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Technical focus</p>
+        <h2>The tools I am actively building with.</h2>
+      </div>
+      <ul class="chip-list" aria-label="Technical focus">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQLite</li>
+        <li>SQLModel</li>
+        <li>C#</li>
+        <li>Unity fundamentals</li>
+        <li>GitHub</li>
+        <li>Django coursework</li>
+      </ul>
+    </section>
   </main>
 
-  
-  <footer>
-    <p>
-      <a href="www.linkedin.com/in/richard-spink-254847308" target="_blank">
-        <img src="Image/LinkedIn.png" alt="LinkedIn" width="30" />
-      </a> |
-      <a href="https://www.github.com/richardspink" target="_blank">
-        <img src="Image/GitHub.png" alt="GitHub" width="30" />
-      </a>
-    </p>
-    <p>&copy; 2025 Richard Spink</p>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="muted">Learning fast, building steadily, and looking for real-world software experience.</p>
+      <div class="social-row">
+        <a href="mailto:richardspink@my.cwi.edu">richardspink@my.cwi.edu</a>
+        <a href="https://github.com/richardspink2" target="_blank" rel="noopener noreferrer">
+          <img src="images/github.png" alt="" />
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/richard-spink-254847308/" target="_blank" rel="noopener noreferrer">
+          <img src="images/linkedin.png" alt="" />
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted">&copy; 2026 Richard Spink</p>
+    </div>
   </footer>
-
 </body>
 </html>

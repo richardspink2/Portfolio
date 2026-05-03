@@ -1,105 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Load Goldman font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
-
-
-
-
-  <title>Contact Form</title>
   <meta charset="UTF-8" />
   <meta name="author" content="Richard Spink" />
-  <meta name="description" content="Richard Spink web developer Boise Idaho" />
+  <meta name="description" content="Contact Richard Spink for internship, junior developer, or software development opportunities." />
   <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Richard Spink</title>
   <link href="css/styles.css" rel="stylesheet" />
-
-  <style>
-    body {
-      font-family: 'Goldman', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    }
-  </style>
-
-  <link href="css/contact.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-  <div class="container">
-    <div class="logo">Richard Spink</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      
-      <li><a href="experience.html">Experience</a></li>
-      <li><a class="active" href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Richard <span>Spink</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Projects</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="main-container">
-    <h1>Contact Me</h1>
+  <main id="main" class="page-main">
+    <section class="section page-hero">
+      <p class="eyebrow">Contact</p>
+      <h1>The easiest way to reach me is directly.</h1>
+      <p class="lead">
+        Because this portfolio is built to stay GitHub Pages-friendly, I replaced the old
+        mail-client form with direct contact options that are simpler and more reliable for
+        recruiters, hiring managers, and collaborators.
+      </p>
+    </section>
 
-    <form action="mailto:richardspink@my.cwi.edu" enctype="text/plain" method="POST">
-      <fieldset class="vertical-group">
-        <legend>How do I contact you?</legend>
+    <section class="section">
+      <div class="contact-grid">
+        <article class="contact-card">
+          <strong>Email</strong>
+          <p>
+            For internship, junior developer, or project conversations, email is the best place
+            to start.
+          </p>
+          <div class="project-links">
+            <a class="button" href="mailto:richardspink@my.cwi.edu">Email Richard</a>
+          </div>
+        </article>
 
-        <label for="compName">Company Name:</label>
-        <input type="text" id="compName" name="compName" placeholder="Dilly Donuts" required>
+        <article class="contact-card">
+          <strong>GitHub</strong>
+          <p>
+            Browse my public repositories to see coursework, experiments, and project history.
+          </p>
+          <div class="project-links">
+            <a class="button button-secondary" href="https://github.com/richardspink2" target="_blank" rel="noopener noreferrer">Open GitHub</a>
+          </div>
+        </article>
 
-        <label for="contactName">Person to Contact:</label>
-        <input type="text" id="contactName" name="contactName" placeholder="Sam/Sally" required>
+        <article class="contact-card">
+          <strong>LinkedIn</strong>
+          <p>
+            Connect with me professionally for job opportunities, networking, or follow-up after an interview.
+          </p>
+          <div class="project-links">
+            <a class="button button-secondary" href="https://www.linkedin.com/in/richard-spink-254847308/" target="_blank" rel="noopener noreferrer">Open LinkedIn</a>
+          </div>
+        </article>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="dogs@gmail.com" required>
+        <article class="contact-card">
+          <strong>What I am looking for</strong>
+          <p>
+            Internship, junior developer, and entry-level software roles where I can grow in web,
+            Python, SQL, or C# development.
+          </p>
+        </article>
 
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
-      </fieldset>
+        <article class="contact-card">
+          <strong>Helpful details to include</strong>
+          <p>
+            Role title, team or company name, location expectations, and the main technologies
+            involved all help me respond faster.
+          </p>
+        </article>
 
-      <fieldset>
-        <legend>What opportunities are available at your company?</legend>
-
-        <label for="opportunities">Type of Position:</label>
-        <select id="opportunities" name="opportunities">
-          <option value="internship">Internship</option>
-          <option value="fulltime">Full-Time Position</option>
-          <option value="contract">Contract Work</option>
-          <option value="part-time">Part-Time</option>
-          <option value="temporary">Temporary</option>
-          <option value="on-call">On-Call</option>
-        </select>
-
-        <p><strong>How Did You Find Me:</strong></p>
-        <label><input type="radio" name="website" value="LinkedIn" /> LinkedIn</label>
-        <label><input type="radio" name="website" value="Job Fair" /> Job Fair</label>
-        <label><input type="radio" name="website" value="CWI Corporate Partner" /> CWI Corporate Partner</label>
-      </fieldset>
-
-      <label for="questions">Questions:</label>
-      <textarea id="questions" name="questions" rows="6" placeholder="Enter your Text here."></textarea>
-
-      <button type="submit" class="btn">Submit</button>
-    </form>
+        <article class="contact-card">
+          <strong>Location</strong>
+          <p>
+            Based in Idaho and building toward software opportunities that value curiosity,
+            reliability, and steady technical growth.
+          </p>
+        </article>
+      </div>
+    </section>
   </main>
 
-  
-
-  <footer>
-    <p>
-      <a href="www.linkedin.com/in/richard-spink-254847308" target="_blank">
-        <img src="Image/LinkedIn.png" alt="LinkedIn" width="30" />
-      </a> |
-      <a href="https://www.github.com/richardspink" target="_blank">
-        <img src="Image/GitHub.png" alt="GitHub" width="30" />
-      </a>
-    </p>
-    <p>&copy; 2025 Richard Spink</p>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="muted">Direct contact is more dependable here than a static-site form submission.</p>
+      <div class="social-row">
+        <a href="mailto:richardspink@my.cwi.edu">richardspink@my.cwi.edu</a>
+        <a href="https://github.com/richardspink2" target="_blank" rel="noopener noreferrer">
+          <img src="images/github.png" alt="" />
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/richard-spink-254847308/" target="_blank" rel="noopener noreferrer">
+          <img src="images/linkedin.png" alt="" />
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted">&copy; 2026 Richard Spink</p>
+    </div>
   </footer>
-
 </body>
 </html>

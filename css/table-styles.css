@@ -1,0 +1,45 @@
+.table-shell {
+  overflow-x: auto;
+  border: 1px solid rgba(24, 34, 48, 0.12);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 18px 48px rgba(24, 34, 48, 0.12);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+}
+
+caption {
+  padding: 20px 20px 10px;
+  text-align: left;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #182230;
+}
+
+th,
+td {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(24, 34, 48, 0.08);
+  text-align: left;
+}
+
+thead {
+  background: rgba(19, 92, 115, 0.08);
+  color: #182230;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(19, 92, 115, 0.03);
+}
+
+.year {
+  background: rgba(197, 109, 67, 0.12);
+  color: #182230;
+  font-weight: 700;
+  text-align: center;
+}
